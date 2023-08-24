@@ -1,16 +1,14 @@
 package com.ej;
-public class App {
-    public static void main( String[] args ) {
-        System.out.println( "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" );
-        System.out.println("           Jenkins docker pipeline sonarqub     ");
-        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-    }
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
-    public int noSum(int sumand){
-        return 30 + sumand;
-    }
+@SpringBootApplication
+public class App extends SpringBootServletInitializer {
 
-    public boolean noTestead(boolean exp){
-        return exp;
+    public static void main(String[] args) {
+        SpringApplication.run(App.class, args);
+        System.out.println("Hola");
     }
 }
+
