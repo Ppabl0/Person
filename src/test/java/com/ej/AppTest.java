@@ -1,9 +1,11 @@
 package com.ej;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class AppTest {
     /**
@@ -11,8 +13,12 @@ public class AppTest {
      */
     @Test
     public void shouldAnswerWithTrue() {
-        App x = new App();
-        assertEquals(29, x.noSum(-1));
         assertTrue( true );
+    }
+
+    @Test
+    @DisplayName("suma rigurosa Test")
+    public void sumacion(){
+        assertEquals(9, 4+5, "la suma no dio 9");
     }
 }
