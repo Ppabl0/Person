@@ -15,4 +15,9 @@ public class AppTest {
         assertEquals(29, x.noSum(-1));
         assertTrue( true );
     }
+
+    @Test
+    public void shouldtriggerJenks(){
+        System.out.println("wuuuuuuuuuuuuuuuu");
+    }
 }
