@@ -20,4 +20,9 @@ public class AppTest {
     public void shouldtriggerJenks(){
         System.out.println("wuuuuuuuuuuuuuuuu");
     }
+
+    @Test
+    public void fail(){
+        assertTrue(false);
+    }
 }
