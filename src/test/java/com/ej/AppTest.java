@@ -21,8 +21,4 @@ public class AppTest {
         System.out.println("wuuuuuuuuuuuuuuuu");
     }
 
-    @Test
-    public void fail(){
-        assertTrue(false);
-    }
 }
