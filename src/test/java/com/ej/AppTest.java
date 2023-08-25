@@ -21,4 +21,7 @@ public class AppTest {
     public void sumacion(){
         assertEquals(9, 4+5, "la suma no dio 9");
     }
+
+    @Test
+    public void shul_pass(){}
 }
