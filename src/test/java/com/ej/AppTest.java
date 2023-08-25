@@ -43,6 +43,21 @@ public class AppTest {
     }
 
     @Test
+    public void suma5Test(){
+        assertEquals(5, DemoRestController.suma5());
+    }
+
+    @Test
+    public void suma6Test(){
+        assertEquals(6, DemoRestController.suma6());
+    }
+
+    @Test
+    public void suma7Test(){
+        assertEquals(7, DemoRestController.suma7());
+    }
+
+    @Test
     public void saludoTest(){
         assertEquals("saludo", DemoRestController.saludo());
     }
