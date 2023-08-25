@@ -8,7 +8,7 @@ public class DemoRestController {
 
     @GetMapping("/a")
     public String algo(){
-        return "Hola si sirve aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+        return "Hola si sirve bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb";
     }
 
     public static int suma1(){
