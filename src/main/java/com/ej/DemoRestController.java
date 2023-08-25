@@ -11,18 +11,25 @@ public class DemoRestController {
         return "Hola si sirve aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
     }
 
-//    private void ab(){
-//        System.out.println("");
-//    }
-//
-//    private String cccc(){
-//        if (true){
-//            if (false){
-//                return "a";
-//            }
-//        }
-//        return null;
-//    }
+    public static int suma1(){
+        return 1;
+    }
+
+    public static String saludo(){
+        return "saludo";
+    }
+
+    public static int suma2(){
+        return 0b10;
+    }
+
+    public static int suma3(){
+        return 0x3;
+    }
+
+    public static int suma4(){
+        return 4;
+    }
 //
 //    private static int shuuu(int aaaaaa, String xxxx){
 //        //aaaaaaaaaaaaaaaaaaaaaaaaaaa
